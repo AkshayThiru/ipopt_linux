@@ -1,5 +1,5 @@
 # ipopt_linux
-repo for automating download of IPOPT binaries, such as for google colab
+repo for automating download of IPOPT binaries for google colab notebooks
 
 example to set up IPOPT with pyomo:
 ```
@@ -10,3 +10,5 @@ if IN_COLAB:
   !wget -N -q "https://github.com/thomasfork/ipopt_linux/raw/main/ipopt-linux64.zip"
   !unzip -o -q ipopt-linux64
 ```
+
+a complete example is provided in the file colab_example.ipynb
